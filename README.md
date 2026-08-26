@@ -1,7 +1,7 @@
 # 🚀 GDC Frontend
 
 **GDC Frontend** es la interfaz web desarrollada en **React JS** para el sistema de gestión de reclamos, consultas y solicitudes de clientes (**GDC**)
-, compuesto por un backend en Node.js y MongoDB → [GDC Back End](https://github.com/IgnacioRojos/GestarBackEnd.git).
+, compuesto por un backend en Node.js y MongoDB → [GDC Back End](https://github.com/IgnacioRojos/GDCBackEnd).
 
 ---
 
@@ -24,7 +24,7 @@ Los usuarios pueden autenticarse mediante un **login** y acceder a distintas fun
 - 🔍 **Resolución inmediata** de consultas según la categoría del caso.
 
 La aplicación se comunica con el backend mediante peticiones **HTTP** usando **Axios**, interactuando con la API alojada en:  
-👉 [https://gestarbackend-production.up.railway.app/](https://gestarbackend-production.up.railway.app/)
+👉 [https://gdcbackend.onrender.com](https://gdcbackend.onrender.com)
 
 ---
 
@@ -41,7 +41,7 @@ La aplicación se comunica con el backend mediante peticiones **HTTP** usando **
 ## 🧩 Estructura principal del proyecto
 
 ```
-GestarFrontEnd/
+GDCFrontEnd/
 │
 ├── src/
 │   ├── components/      # Componentes reutilizables
@@ -94,8 +94,8 @@ CONTRASEÑA: Ignacio1920
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/IgnacioRojos/GestarFrontEnd.git
-   cd GestarFrontEnd
+   git clone https://github.com/IgnacioRojos/GDCFrontEnd.git
+   cd GDCFrontEnd
    ```
 
 2. **Instalar dependencias**
@@ -106,7 +106,7 @@ CONTRASEÑA: Ignacio1920
 3. **Configurar variables de entorno**
    Crear un archivo `.env` en la raíz del proyecto con:
    ```env
-   VITE_API_URL=https://gestarbackend-production.up.railway.app
+   VITE_API_URL=https://gdcbackend.onrender.com
    ```
 
 4. **Ejecutar en modo desarrollo**
@@ -119,7 +119,7 @@ CONTRASEÑA: Ignacio1920
 
 ## 🔗 Conexión con el Backend
 
-Este frontend consume la API desarrollada en el proyecto [**GDC Back End**](https://github.com/IgnacioRojos/GestarBackEnd.git), donde se encuentran las rutas para:
+Este frontend consume la API desarrollada en el proyecto [**GDC Back End**](https://github.com/IgnacioRojos/GDCBackEnd), donde se encuentran las rutas para:
 
 - Autenticación de usuarios  
 - Gestión de reclamos, solicitudes y consultas  
